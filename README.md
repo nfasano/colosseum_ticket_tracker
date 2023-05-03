@@ -18,7 +18,18 @@ There are two main types of tickets you can purchase: the regular entrance (16 e
 ## Results
 
 ### When do tickets initially go on sale?
-- insert figure of ticet release dates
+<p align="center">
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_AllTypes.png" alt="drawing" width="500"/> 
+</picture>
+
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_Underground.png" alt="drawing" width="500"/> 
+</picture>
+
+</p>
+
+
 
 ### Will more tickets be added to the after the initial release?
 
