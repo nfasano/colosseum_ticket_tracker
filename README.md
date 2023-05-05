@@ -12,12 +12,16 @@ In conclusion, I suggest the following approach to purchasing tickets at the Col
 
 ## Ticket information (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/)
 There are two main types of tickets you can purchase: the regular entrance (16 euros) and the full experience (22 euros). The regular ticket allows one timed entry into the Colosseum and one entrance to the archaelogical area which contains the Roman Forum and Palantine. The Full experience has two types of tickets: one that adds access to the arena of the Colosseum and one that adds arena accces and the underground area where the battles took place.
-
+<p align="center">
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
+</picture>
+</p>
 ## Webscraping details
 
 ## Results
 
-### When do tickets initially go on sale?
+### When do tickets initially go on sale and how long are they available for?
 <p align="center">
 <picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_AllTypes.png" alt="drawing" width="800"/> 
@@ -30,14 +34,11 @@ There are two main types of tickets you can purchase: the regular entrance (16 e
 </picture>
 </p>
 
+### Will more tickets be added to the after the initial release?
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
-
-### Will more tickets be added to the after the initial release?
-
-### Based on the above information
 
