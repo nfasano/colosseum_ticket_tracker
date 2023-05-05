@@ -25,9 +25,14 @@ There are two main types of tickets you can purchase: the regular entrance (16 e
 </p>
 
 <p align="center">
-
 <picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_Underground.png" alt="drawing" width="800"/> 
+</picture>
+</p>
+
+<p align="center">
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
