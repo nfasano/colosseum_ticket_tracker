@@ -29,29 +29,37 @@ Even till, if you are a bit flexible on the day or time of your visit to the Col
 ## Results
 
 ### When do tickets initially go on sale and how long are they available for?
+### Full experience initial 30 day release
 <p align="center">
 <picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
+### Full experinece entrance tickets (7days and day of)
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
+### Regular entrance tickets (30days and 7days)
 <p align="center">
 <picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
-### Will more tickets be added to the after the initial release?
+### Regular entrance tickets (1day and day of)
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+
+
+
+
+
 
 
