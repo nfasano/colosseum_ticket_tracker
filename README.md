@@ -31,13 +31,19 @@ Even till, if you are a bit flexible on the day or time of your visit to the Col
 ### When do tickets initially go on sale and how long are they available for?
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_AllTypes.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/FullExperience_Underground.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="800"/> 
+</picture>
+</p>
+
+<p align="center">
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="800"/> 
 </picture>
 </p>
 
