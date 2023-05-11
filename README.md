@@ -2,28 +2,39 @@
 Code for webscraping ticket availability for entry to the Colosseum, Roman Forum, and Palatine Hill in Rome from the official Colosseum website. 
 
 ## Background
-Tickets to enter the Colosseum are notoriusly difficult to obtain from the official website (https://www.coopculture.it/it/) as only a limited supply of timed entry tickets are released 30 days in advance, and those tickets are taken by third party bots within seconds of being posted. These third party users then sell the tickets for a mark up, sometimes by up to 10x the original ticket price (). The goal of this code was to determine when is optimal time to purchase a Colosseum ticket from the official website, avoiding the exorbitant fees incurred by using a third party resellers. 
+Tickets to enter the Colosseum are notoriusly difficult to obtain from the official website (https://www.coopculture.it/it/) as only a limited supply of timed entry tickets are released 30 days in advance, and those tickets are taken by third party bots within seconds of being posted. These third party sellers (e.g. Viator, Get Your Guide, etc.) then sell the tickets for a mark up, sometimes for more than 10x the original ticket price. The goal of this project was to determine when is optimal time to purchase a Colosseum ticket from the official website, avoiding the exorbitant fees incurred by using third party resellers. 
 
 ## Conclusions
 In conclusion, I suggest the following approach to purchasing tickets at the Colosseum:
-  1) Exactly 30 days before your visit, constantly check the official website for available tickets at a desirable time. Tickets are released on a rolling basis, starting at 9:00am [CET] (see ticket infromation below for more information on ticket release times). Early morning tickets are nearly impossible to get, but you may get lucky with some afternoon availability. It is very likley that you could purchase tickets for entry after 5:30p, but the Colosseum closes at 7:00pm so your visit will be quite short.
-  2) If that fails, the next step is to purchase tickets from a third party vendor (e.g. Get your Guide or Viator). These sites usually have an option to get a full refund on your tickets up to 24 hours in advance, which is good since there is still a possibility to get tickets from the official website. The markup on the tickets can be anywhere from 2-10x the original cost of the ticket. The full experience with underground are usually more than $130.
+
+First, determine which ticket you want to purchase: regular experinece, full experinece arena, or full experience undergrounds and arena (see ticket infromation below for more information on the difference between these ticket types). 
+
+Follow these steps if you want the regular experience ticket:
+  1) Exactly 30 days before your visit, constantly check the official website for available tickets at a desirable time. Tickets are released on a rolling basis every 5 minutes starting at exactly 9:00am [CET]. From my experience, each batch of tickets will be sold within a minute of being released, but this should be enough time to secure a couple of tickets, especially if you are somewhat flexible on the entry time. You will also be able to purchase tickets 7 days before the visit date and even within 24 hours of the visit, but securing a specific time slot may be somewhat challenging. 
+  
+Follow these steps if you want one of the full experience options: 
+  1) Exactly 30 days before your visit, constantly check the official website for available tickets at a desirable time. Tickets are released on a rolling basis, starting at 9:00am [CET] (see ticket infromation below for more information on ticket release times). Early morning tickets are nearly impossible to get, but you may get lucky with some afternoon availability. It is very likely that you could purchase tickets for entry after 5:30p, but the Colosseum closes at 7:00pm so your visit will be quite short.
+  2) If that fails, the next step is to purchase tickets from a third party vendor (e.g. Get your Guide or Viator). These sites usually have an option to get a full refund on your tickets up to 24 hours in advance, which is good since there is still a possibility to get tickets from the official website. The markup on the tickets can be anywhere from 1.5-10x the original cost of the ticket.
   3) Periodically check the official website for ticket releases (or use the code in this repo to track ticket availablilty and automatically email you with any status changes). The most likley time to find a ticket is exactly 7 days before your visit time, when a second batch of tickets are released. It is also possible to find tickets available within 24 hours of your entry time, but that is cutting it too close and you will no longer have the option to return any tickets purchased from third party sites.
+Note: If you want more than two or three full expereince tickets, especially for a time slot prior to 5:00p entry time, then I recommend purchasing from a third party reseller as securing a larger batch of tickets will be nearly impossible.
 
 ## Ticket information (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/)
 
 ### Ticket types
-There are three main ticket types you can purchase: the ordinary ticket (18 euros), the full experience arena ticket (24 euros), and the full experience undergrounds and arena ticket (24 euros). The following description of each ticket type was taken from the coopculture website:
+There are three main ticket types you can purchase: the ordinary ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website:
+
 """
-ADMISSION TICKETS
-Regular experience ticket € 16,00 + € 2 booking fee
+
+**ADMISSION TICKETS**
+**Regular experience ticket (€16 + €2 booking fee):**
 Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Forum - Palatine area.
 
-Full Experience Arena ticket € 22,00 + € 2,00 booking fee.
+**Full Experience Arena ticket (€22 + €2 booking fee):**
 Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Forum and SUPER sites.
 
-Full Experience Undergrounds and Arena ticket € 22,00 + € 2,00 booking fee.
-Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the  Undergrounds and Arena, one entrance to the Palatine Forum and SUPER sites. (NOTE FROM ME: These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.)
+**Full Experience Undergrounds and Arena ticket (€22 + €2 booking fee):**
+Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Undergrounds and Arena, one entrance to the Palatine Forum and SUPER sites. (NOTE FROM ME: These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.)
+
 """
 
 Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine-Forum area. You can visit the Palantine-Forum area before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. The full experience also allows you access to the SUPER sites which are located within the Palantine-Forum area (see here for a list of which SUPER sites will be open during your visit).
@@ -44,6 +55,7 @@ Even till, if you are a bit flexible on the day or time of your visit to the Col
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+
 ## Webscraping details
 
 ## Results
