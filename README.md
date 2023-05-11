@@ -1,10 +1,10 @@
-# Colosseum Tickets
+# About this repository
 Code for webscraping ticket availability for entry to the Colosseum, Roman Forum, and Palatine Hill in Rome from the official Colosseum website. 
 
 ### Jump to section: 
 * [Background](#background)      
-* [Conclusions](#conclusions)   
-* [Ticket Information](#ticket-information) 
+* [My suggested strategy for securing your tickets](#my-suggessted-strategy-for-securing-your-tickets)   
+* [Ticket information](#ticket-information) 
   * [Ticket types](#ticket-types) 
   * [Ticket release times](#ticket-release-times)
   * [Best times to secure your tickets](#best-times-to-secure-your-tickets) 
@@ -13,8 +13,8 @@ Code for webscraping ticket availability for entry to the Colosseum, Roman Forum
 ## Background
 Tickets to enter the Colosseum are notoriusly difficult to obtain from the official website (https://www.coopculture.it/it/) as only a limited supply of timed entry tickets are released 30 days in advance, and those tickets are taken by third party bots within seconds of being posted. These third party sellers (e.g. Viator, Get Your Guide, etc.) then sell the tickets for a mark up, sometimes for more than 10x the original ticket price. The goal of this project was to determine when is optimal time to purchase a Colosseum ticket from the official website, avoiding the exorbitant fees incurred by using third party resellers. 
 
-## Conclusions
-In conclusion, I suggest the following approach to purchasing tickets at the Colosseum:
+## My suggested strategy for securing your tickets
+Based on my research and time spent tracking ticket availability using Python code, I suggest the following approach to purchasing tickets at the Colosseum:
 
 First, determine which ticket you want to purchase: regular experinece, full experinece arena, or full experience undergrounds and arena (see ticket infromation below for more information on the difference between these ticket types). 
 
@@ -28,10 +28,10 @@ Follow these steps if you want one of the full experience options:
 
 Will this approach work? It did for me:
 
-## Ticket information (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/)
+## Ticket information 
 
 ### Ticket types
-There are three main ticket types you can purchase: the ordinary ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website:
+There are three main ticket types you can purchase: the ordinary ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/):
 
 """
 
@@ -62,7 +62,7 @@ Regular experience tickets are released exactly 30 days in advance in 5 minute i
 </picture>
 </p>
 
-### Best times to secure your ticket
+### Best times to secure your tickets
 
 The initial release of regular experience tickets do sell out within one minute of each release time, but it should not be difficult to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release. Moreover, there is usually an abundance of tickets released 7 days prior to entry date which do not sell out as fast.  
 
