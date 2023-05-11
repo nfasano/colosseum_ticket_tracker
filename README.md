@@ -17,6 +17,11 @@ Follow these steps if you want one of the full experience options:
   2) If that fails, the next step is to purchase tickets from a third party vendor (e.g. Get your Guide or Viator). These sites usually have an option to get a full refund on your tickets up to 24 hours in advance, which is good since there is still a possibility to get tickets from the official website. The markup on the tickets can be anywhere from 1.5-10x the original cost of the ticket.
   3) Periodically check the official website for ticket releases (or use the code in this repo to track ticket availablilty and automatically email you with any status changes). The most likley time to find a ticket is exactly 7 days before your visit time, when a second batch of tickets are released. It is also possible to find tickets available within 24 hours of your entry time, but that is cutting it too close and you will no longer have the option to return any tickets purchased from third party sites.
 
+Will this approach work? It did for me:
+
+
+
+
 ## Ticket information (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/)
 
 ### Ticket types
@@ -55,7 +60,7 @@ Even till, if you are a bit flexible on the day or time of your visit to the Col
 </picture>
 </p>
 
-## Webscraping details
+
 
 ## Results
 
@@ -89,8 +94,14 @@ Even till, if you are a bit flexible on the day or time of your visit to the Col
 </p>
 
 
+## Webscraping details
+There are two python scripts in this repository for tracking ticket information:
 
+1) ticket_tracker_single_day.ipynb 
 
+Contains an option to send email alerts.
+
+3) ticket_tracker_all_days.ipynb 
 
 
 
