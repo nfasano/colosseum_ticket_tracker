@@ -11,8 +11,28 @@ In conclusion, I suggest the following approach to purchasing tickets at the Col
   3) Periodically check the official website for ticket releases (or use the code in this repo to track ticket availablilty and automatically email you with any status changes). The most likley time to find a ticket is exactly 7 days before your visit time, when a second batch of tickets are released. It is also possible to find tickets available within 24 hours of your entry time, but that is cutting it too close and you will no longer have the option to return any tickets purchased from third party sites.
 
 ## Ticket information (see Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/)
-There are two main types of tickets you can purchase: the regular entrance (16 euros) and the full experience (24 euros). The regular entrance ticket allows one timed entry into the Colosseum and one entrance to the archaelogical area which contains the Roman Forum and Palantine. The Full experience has two types of tickets: one that adds access to the arena of the Colosseum and one that adds access the the arena and the underground, where the gladiators would prepare for battle. 
 
+### Ticket types
+There are three main ticket types you can purchase: the ordinary ticket (18 euros), the full experience arena ticket (24 euros), and the full experience undergrounds and arena ticket (24 euros). The following description of each ticket type was taken from the coopculture website:
+"""
+ADMISSION TICKETS
+Regular experience ticket € 16,00 + € 2 booking fee
+Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Forum - Palatine area.
+
+Full Experience Arena ticket € 22,00 + € 2,00 booking fee.
+Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Forum and SUPER sites.
+
+Full Experience Undergrounds and Arena ticket € 22,00 + € 2,00 booking fee.
+Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the  Undergrounds and Arena, one entrance to the Palatine Forum and SUPER sites. (NOTE FROM ME: These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.)
+"""
+
+Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine-Forum area. You can visit the Palantine-Forum area before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. The full experience also allows you access to the SUPER sites which are located within the Palantine-Forum area (see here for a list of which SUPER sites will be open during your visit).
+
+Based on this information, it seems obvious that the full experience undergrounds and arena ticket is the best value, but as we will see below, the limited number of tickets and their high demand make these tickets the most difficult to secure.
+
+A quick note: On the coop culture website you will also find regular experience and full experience undergrounds and arena tickets on sale with a guided tour included. These tours are typically offered 1-2 times a day and are given in french, spanish, italian, and english. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. 
+
+### Ticket release times
 Regular experience tickets are released exactly 30 days in advance in 5 minute intervals starting at 9:15am Rome time (left panel figure 1). The initial release of these tickets do sell out within one minute of each release time, but it should not be difficult to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release. Moreover, there is usually an abundance of tickets released 7 days prior to entry date which do not sell out as fast.
 
 Obtaining the full experience tickets are a different story. For one thing, the tickets are not released every 5 minutes as in the regular entrance ticket, with underground access tickets only containing ~20 entry times spread out across the day (central and right panel of figure1). Again, tickets are released exactly 30 days from entry time, so you do not need to check the website every 5 minutes if you know what time slots will be available on that day. The time slots do change by the day, but there may be a weekly pattern (still need to collect this information). The second challenge to gettign these tickets is that the sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer availble for your selected time." 
