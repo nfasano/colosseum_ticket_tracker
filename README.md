@@ -1,5 +1,5 @@
-# About this repository
-Code for webscraping ticket availability for entry to the Colosseum, Roman Forum, and Palatine Hill in Rome from the official Colosseum website. 
+### About this repository
+Wrote an algorithm to track the ticket availability for entry into the Colosseum on the official Colosseum website, where tickets are notoriously difficult to secure. Ticket availability was queried for 10 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be updated by email when tickets for a particular date go on sale.
 
 ### Jump to section: 
 * [Background](#background)      
@@ -97,16 +97,13 @@ The second challenge to gettign these tickets is that the sell fast. Really fast
 </p>
 
 
-
-
 ## Python code for tracking ticket availability 
-There are two python scripts in this repository for tracking ticket information:
+There are two python scripts in this repository for tracking ticket information. Both scripts use Selenium to automate web browsing and ticket availability extraction. Each time the website is queried, the collected ticket availbility information is stored in a Pandas dataframe which is depicted below. Each row of the dataframe reports the number of tickets available for a given timeslot and are indexed by 'queryDate_queryTime_ticketType'. The columns have two levels (hierarchical indexing) where the outer level is for the ticket date and t. The outer level is dropped when tracking ticket availability on a single date. Given that most queries will return no ticket availablility, this dataframe is quite sparse (greater than 99% of entries are NaN) and so we use the builtin sparsity datatype (dtype = Sparse[float64, nan]) available in Panadas [sparse_date_structures](https://pandas.pydata.org/docs/user_guide/sparse.html#:~:text=pandas%20provides%20data%20structures%20for,%2C%20including%200)%20is%20omitted.)  
 
-1) ticket_tracker_single_day.ipynb 
+**1) ticket_tracker_single_day.ipynb:** This script is optimized for tracking ticket availability on the release day. Contains an option to send email alerts with a link to the ticket 
 
-Contains an option to send email alerts.
+**2) ticket_tracker_all_days.ipynb:** This script is meant to track the ticket availability across all days which tickets may be available and for all ticket types of interest. 
 
-3) ticket_tracker_all_days.ipynb 
+**3) eda_all_days_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_all_days.ipynb script. Also provides some functions for manipulating the pandas dataframes with a hierarchical column structure.
 
-
-
+**4) eda_single_day_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_single_day.ipynb script. 
