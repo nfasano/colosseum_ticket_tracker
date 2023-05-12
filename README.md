@@ -79,6 +79,7 @@ There are several take home messages from these heatmaps:
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+Figure 2: 
 
 #### Regular experience tickets (1day and day of)
 <p align="center">
@@ -86,6 +87,7 @@ There are several take home messages from these heatmaps:
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+Figure 3:
 
 The second challenge to gettign these tickets is that the sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer availble for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum and are very active in trying to secure tickets, I have had some success in getting the Full experience with arena access just by constantly checking the website, at least getting 2 tickets. Underground access remains challenging, but I have one more trick that will help you to beat the bots and actually secure your underground ticket.
 
@@ -95,6 +97,7 @@ The second challenge to gettign these tickets is that the sell fast. Really fast
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+Figure 4:
 
 #### Full experinece entrance tickets (7days and day of)
 <p align="center">
@@ -102,7 +105,7 @@ The second challenge to gettign these tickets is that the sell fast. Really fast
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="800"/> 
 </picture>
 </p>
-
+Figure 5:
 
 ## Python code for tracking ticket availability 
 There are two python scripts in this repository for tracking ticket information. Both scripts use Selenium to automate web browsing and ticket availability extraction. Each time the website is queried, the collected ticket availbility information is stored in a Pandas dataframe which is depicted below. Each row of the dataframe reports the number of tickets available for a given timeslot and are indexed by 'queryDate_queryTime_ticketType'. The columns have two levels (hierarchical indexing) where the outer level is for the ticket date and t. The outer level is dropped when tracking ticket availability on a single date. Given that most queries will return no ticket availablility, this dataframe is quite sparse (greater than 99% of entries are NaN) and so we use the builtin sparsity datatype (dtype = Sparse[float64, nan]) available in Panadas [sparse_date_structures](https://pandas.pydata.org/docs/user_guide/sparse.html#:~:text=pandas%20provides%20data%20structures%20for,%2C%20including%200)%20is%20omitted.)  
