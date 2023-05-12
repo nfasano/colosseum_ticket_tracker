@@ -36,6 +36,7 @@ There are three main ticket types you can purchase: the ordinary ticket (€18),
 """
 
 **ADMISSION TICKETS**
+
 **Regular experience ticket (€16 + €2 booking fee):**
 Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Forum - Palatine area.
 
