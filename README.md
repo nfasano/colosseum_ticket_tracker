@@ -55,17 +55,23 @@ Based on this information, it seems obvious that the full experience underground
 A quick note: On the coop culture website you will also find regular experience and full experience undergrounds and arena tickets on sale with a guided tour included. These tours are typically offered 1-2 times a day and are given in french, spanish, italian, and english. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. 
 
 ### Ticket release times
-Regular experience tickets are released exactly 30 days in advance in 5 minute intervals starting at 9:15am Rome time (left panel figure 1). The full experience tickets are not released every 5 minutes as in the regular entrance ticket, with underground access tickets only containing ~20 entry times spread out across the day (central and right panel of figure1). Again, tickets are released exactly 30 days from entry time, so you do not need to check the website every 5 minutes if you know what time slots will be available on that day. The time slots do change by the day, but there may be a weekly pattern (still need to collect this information).
+Regular experience tickets are released exactly 30 days in advance in 5 minute intervals starting at 9:15am CET (Rome time) (figure 1, left panel). The full experience tickets are not released every 5 minutes as in the regular entrance ticket, with underground access tickets only containing ~20 entry times spread out across the day (central and right panel of figure 1). Again, tickets are released exactly 30 days from entry time, so you do not need to check the website every 5 minutes if you know what time slots will be available on that day. I do not yet have a way of determining which time slots will be available before they are released as the entry times seem to vary by the day and week. It does seem that 9:00am CET is always the first time slot available for underground access and 9:15am CET for arena-only access. 
 
 <p align="center">
 <picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
 </picture>
 </p>
+Figure 1: Available ticket times for the three main ticket types:regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.
 
 ### Best times to secure your tickets
 
-The initial release of regular experience tickets do sell out within one minute of each release time, but it should not be difficult to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release. Moreover, there is usually an abundance of tickets released 7 days prior to entry date which do not sell out as fast.  
+#### Regular experience tickets
+The initial release of regular experience tickets do sell out within thirty seconds of each release time, but it should be possible to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release. Moreover, there is usually an abundance of tickets released 7 days prior to entry date which do not sell out as fast. The following two figures plot the regular experience ticket availability. Each row The plot should be interpreted as follows: each cell block contains the maximum number of tickets available during that block's time interval over the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed. For example, the 17 in the left panel of figure 2 means that there was a maximum of 17 tickets available for entry times between 9:15am and 9:45am when I queried the website between 9:15am and 9:45am in ~1minute intervals. A blank cell means no tickets were ever detected during when the website was queried during this time interval.
+
+There are several take home messages from these heatmaps:
+1) Tickets are released on a rolling basis
+2) There is a good chance of securing tickets within 24 hours of the entry time and for a reasonable time. You should start checking 8:00pm the night before your rome visit.
 
 #### Regular experience tickets (30days and 7days)
 <p align="center">
