@@ -89,21 +89,19 @@ There are several take home messages from these heatmaps:
 2) There is a good (possibly even better) chance of securing tickets within 24 hours of the entry time. You should start checking 8:00pm the night before your rome visit.
 3) 
 
-#### Regular experience tickets (30days and 7days)
+#### Regular experience tickets
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="750"/> 
 </picture>
+ 
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="750"/> 
+</picture>
+ 
 </p>
 Figure 2: 
 
-#### Regular experience tickets (1day and day of)
-<p align="center">
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="800"/> 
-</picture>
-</p>
-Figure 3:
 
 Securing full experience tickets is a somewhat different story. The main challenge to getting these tickets is that they sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer availble for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum and are very active in trying to secure tickets and have a strong internet connect, there is a decent chance of securing a couple of the full experience with arena access tickets. To get the full experience with underground and arena access, you need all of the former plus lots of luck. 
 
@@ -112,18 +110,16 @@ The following two figures show the full experience ticket availability for the s
 #### Full experience initial 30 day release
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="800"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="750"/> 
 </picture>
+ 
+ <picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="750"/> 
+</picture>
+ 
 </p>
 Figure 4:
 
-#### Full experinece entrance tickets (7days and day of)
-<p align="center">
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="800"/> 
-</picture>
-</p>
-Figure 5:
 
 
 ### A hack for scoring full experience tickets
