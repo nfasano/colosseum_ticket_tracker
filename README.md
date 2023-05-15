@@ -20,7 +20,7 @@ Tickets to enter the Colosseum are notoriusly difficult to obtain from the offic
 </picture>
  
  <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="405"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="407"/> 
 </picture>
 </p>
 
