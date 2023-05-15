@@ -16,11 +16,11 @@ Wrote an algorithm to track the ticket availability for entry into the Colosseum
 Tickets to enter the Colosseum are notoriusly difficult to obtain from the official website (https://www.coopculture.it/it/) as only a limited supply of timed entry tickets are released 30 days in advance, and those tickets are taken by third party bots within seconds of being posted. These third party sellers (e.g. Viator, Get Your Guide, Tiqets, etc.) then sell the tickets for a mark up, sometimes for more than 10x the original ticket price. The goal of this project was to devise a strategy which optimizes your chances of securing Colosseum tickets from the official website, avoiding the exorbitant fees incurred by using third party resellers. 
 <p align="center">
 <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="455"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="432"/> 
 </picture>
  
  <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="400"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="380"/> 
 </picture>
 </p>
 
