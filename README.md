@@ -1,5 +1,5 @@
 ### About this repository
-Wrote an algorithm to track the ticket availability for entry into the Colosseum on the official Colosseum website, where tickets are notoriously difficult to secure. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be sent instantaneous email alerts with embedded links when tickets become available.
+Wrote an algorithm to track the ticket availability for entry into the Colosseum from the official website ([Coopculture](https://ecm.coopculture.it/index.php?lang=en)), where tickets are notoriously difficult to secure. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be sent instantaneous email alerts with embedded links when tickets become available.
 
 ### Jump to section: 
 * [Background](#background)      
@@ -142,7 +142,7 @@ Each script has several control parameters to set query frequency, email frequen
 
 **1) ticket_tracker_single_day.ipynb:** This script is optimized for tracking ticket availability on the release date, which is useful if you are trying to obtain specific ticket type on a specific date and time. It contains functionality to send email alerts containing ticket information, including ticket type, entry date and time, number of tickets available, and link to the ticket. 
 
-**2) ticket_tracker_all_days.ipynb:** This script is meant to track the ticket availability across all 30 days for which tickets have been released and for all ticket types of interest. This script is less useful for securing specific tickets for a specific date and more useful for collecting data on ticket availability as a function of time. If not for this script, I may not have learned about the second batch of tickets released 7 days in advnace of entrance time.  
+**2) ticket_tracker_all_days.ipynb:** This script is meant to track the ticket availability across all 30 days for which tickets have been released and for all ticket types of interest. This script is less useful for securing specific tickets for a specific date and more useful for collecting data on ticket availability as a function of time. If not for this script, I may not have learned about the second batch of tickets released 7 days in advance of entrance time.  
 
 **3) eda_all_days_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_all_days.ipynb script. Also provides some functions for manipulating the pandas dataframes with a hierarchical column structure.
 
