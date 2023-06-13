@@ -2,16 +2,19 @@
 Wrote an algorithm to track the ticket availability for entry into the Colosseum from the official website ([Coopculture](https://ecm.coopculture.it/index.php?lang=en)), where tickets are notoriously difficult to secure. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be sent instantaneous email alerts with embedded links when tickets become available.
 
 ### Jump to section: 
-* [Background](#background) 
+* [Introduction](#introduction)
+  * [General background and motivation](#general-background-and-motivation)  
   * [Ticket types](#ticket-types)
-  * [Ticket tracking approach]()      
-* [Summary of webscraped data](#ticket-information) 
+  * [Ticket tracking approach](#ticket-tracking-approach)      
+* [Summary of webscraped data](#summary-of-webscraped-data) 
   * [Ticket release times](#ticket-release-times)
   * [Best times to secure your tickets](#best-times-to-secure-your-tickets) 
   * [My suggested strategy for securing your tickets](#my-suggessted-strategy-for-securing-your-tickets)   
 * [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
 
-## Background
+## Introduction
+
+### General background and motivation
 Tickets to enter the Colosseum are notoriusly difficult to obtain from the official website ([coopculture](https://ecm.coopculture.it/index.php?option=com_snapp&view=products&snappTemplate=template3&catalogid=A4CC149C-BEE1-5773-5E59-01675F3EA81C&lang=en)) as only a limited supply of timed entry tickets are released 30 days in advance, and the majority of those tickets are scooped up by third party bots within seconds of being posted. These third party resellers (e.g. Viator, Get Your Guide, Tiqets, etc.) then sell the tickets for a mark up, sometimes for more than 10x the original ticket price. The goal of this project was to devise a strategy which optimizes your chances of securing Colosseum tickets from the official website, avoiding the exorbitant fees incurred by using third party resellers. 
 
 <p align="center">
@@ -53,6 +56,21 @@ Based on this information, it seems obvious that the full experience underground
 
 A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in french, spanish, italian, and english. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. 
 
+### Ticket tracking approach
+
+## Summary of webscraped data
+
+### Ticket release times
+Regular experience tickets are released exactly 30 days in advance in 5 minute intervals starting at 9:15am CET (Rome time) (Figure 1, left panel). The full experience tickets are not released every 5 minutes as in the regular experience ticket, with underground access tickets only containing ~20 entry times spread out across the day (central and right panel of figure 1). Again, tickets are released exactly 30 days from entry time, so you do not need to check the website every 5 minutes if you know what time slots will be available on that day. I do not yet have a way of determining which time slots will be available before they are released, as the entry times seem to vary by the day and week. It does seem that 9:00am CET is always the first time slot available for underground access and 9:15am CET for arena-only access, but more exploration is needed to confirm this. 
+
+<p align="center">
+<picture>
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
+</picture>
+</p>
+
+*Figure 1: Available ticket times for the three main ticket types: regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.*
+
 ## My suggested strategy for securing your tickets
 Based on my research and time spent tracking ticket availability using Python code, I suggest the following approach to securing your tickets to the Colosseum:
 
@@ -68,18 +86,6 @@ Follow these steps if you want **full experience** tickets:
 
 Will this approach work? It did for me!
 
-## Ticket information 
-
-### Ticket release times
-Regular experience tickets are released exactly 30 days in advance in 5 minute intervals starting at 9:15am CET (Rome time) (Figure 1, left panel). The full experience tickets are not released every 5 minutes as in the regular experience ticket, with underground access tickets only containing ~20 entry times spread out across the day (central and right panel of figure 1). Again, tickets are released exactly 30 days from entry time, so you do not need to check the website every 5 minutes if you know what time slots will be available on that day. I do not yet have a way of determining which time slots will be available before they are released, as the entry times seem to vary by the day and week. It does seem that 9:00am CET is always the first time slot available for underground access and 9:15am CET for arena-only access, but more exploration is needed to confirm this. 
-
-<p align="center">
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="800"/> 
-</picture>
-</p>
-
-*Figure 1: Available ticket times for the three main ticket types: regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.*
 
 ### Best times to secure your tickets
 
