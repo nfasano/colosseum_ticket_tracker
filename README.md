@@ -33,16 +33,21 @@ There are three main ticket types you can purchase: the ordinary ticket (€18),
 **ADMISSION TICKETS**
 
 **Regular experience ticket (€16 + €2 booking fee):**
-Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Forum - Palatine area.
+Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Palatine Hill-Roman Forum area.
 
 **Full Experience Arena ticket (€22 + €2 booking fee):**
-Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Forum and SUPER sites.
+Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Hill-Roman Forum area and S.U.P.E.R sites.
 
 **Full Experience Undergrounds and Arena ticket (€22 + €2 booking fee):**
-Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Undergrounds and Arena, one entrance to the Palatine Forum and SUPER sites. (NOTE FROM ME: These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.)
+Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Undergrounds and Arena, one entrance to the Palatine Hill-Roman Forum area and S.U.P.E.R sites. These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.
+
+NOTES: 
+1) The Palatine Hill-Roman Forum area is located right next to the Colosseum and contain the ruins from ancient Rome. The Palatine Hill section is where the emperors of ancient Rome built their palaces and contains some nice views of the Circus Maxiums and the Roman Forum section. The Roman Forum section is where all the political meetings and social gatherings of ancinet Rome would take place. The two sections are connected and the boundary between them is not perceptible (i.e. you can walk between the two sections without knowing it). 
+2) The S.U.P.E.R (Seven Unique Places to Experience in Rome) sites are special attractions inside the Palatine Hill-Roman Forum area which are only accessibile with a full expereince ticket. The S.U.P.E.R sites include House of Augustus, House of Livia (Augustus' wife), Palatine museum, Temple of Romulus, Neronian cryptoporticus, the Aula Isiaca, and the Santa Maria Antiqua. See the [PARCO](https://colosseo.it/en/) website for more details on these sites including dates of closure for maintenance.
+
 """
 
-Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine-Forum area. You can visit the Palantine-Forum area before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. The full experience also allows you access to the SUPER sites which are located within the Palantine-Forum area (see [PARCO](https://colosseo.it/en/) website for more details on the sites to see in the Colosseum and Palatine-Forum area).
+Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine Hill-Roman Forum area. You can visit the Palatine Hill and Roman Forum areas before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. 
 
 Based on this information, it seems obvious that the full experience undergrounds and arena ticket is the best value, but as we will see below, the limited number of tickets and their high demand make these tickets the most difficult to obtain, especially during the summer months.
 
