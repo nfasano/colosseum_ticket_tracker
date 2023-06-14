@@ -75,48 +75,45 @@ In figure 1 below, selected entry times are shown for Regular experience tickets
 *Figure 1: Available ticket times for the three main ticket types: regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.*
 
 ### Ticket release times and availability
-
 For both the regular experience and full experience options, tickets are released on a rolling basis exactly 30 days from the timed entry. For example, tickets for a 9:00am CET timed entry on July 31st will be released at exactly 9:00am CET on July 1st. Similialrly, tickets for a 1:30pm CET timed entry on July 31st will be released at exactly 1:30pm CET on July 1st. Sometimes the tickets do not become available until between 5-30 seconds after the entry time.
 
 #### Regular experience tickets
 Figure 2 below plots the regular experience ticket availability for 30 days (initial release) before your visit, 7 days before your visit, 1 day before your visit, and the day of your visit. The heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the the height of the block. For example, the 17 in the left panel of figure 2 means that there was a maximum of 17 tickets available at any given moment between April 22nd, 2023 - May 5th, 2023 for entry times between 9:15am and 9:45am when I queried the website between 9:15am and 9:45am during the two weeks. A blank cell means no tickets were ever detected during that query timed interval.
 
-The initial release of regular experience tickets do sell out within thirty seconds of each release time, but it should be possible to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release and have reasonable internet connection. Moreover, there is usually an abundance of tickets released 7 days prior to entry date which do not sell out as fast. 
+As seen in the upper left heatmap, which illustrates the number of tickets available 30 days before your visit, tickets are released on a rolling basis exactly 30 days before the ticket entry time which is why the upper right portion of this heatmap is blank. Early morning entry times sell out the fastest, usually within 30 seconds of being posted. Sometimes residual tickets are found later on in the day which I think happens because people cancel their cart or something goes wrong with the transaction. For entry times later than 17:00CET, tickets do not sell out as quickly and are probably your best chance of getting tickets for a larger group, say a family of 6. As I discuss below in the additional notes section, I don't see any issue with purchasing these later entry time tickets so long as you plan your day appropriately. I would just recommend having at least 1 full hour inside the Colosseum to get the most out of the experience.
 
-There are several take home messages from these heatmaps:
-1) Tickets are released on a rolling basis
-2) There is a good (possibly even better) chance of securing tickets within 24 hours of the entry time. You should start checking 8:00pm the night before your rome visit.
-3) 
+Interestingly, there is a second batch of tickets that are released on a rolling basis exactly 7 days prior to the ticket's entry time (upper right heatmap). So if you missed the intial ticket release and all of the tickets were sold out, you can still wait to secure tickets 7 dyas before your visit. Finally, there is a good chance of securing tickets within 24 hours of the entry time (lower left and lower right heatmaps), which I would definitely recommend doing instead of trying to get tickets at the ticket office. You should start checking 8:00pm CET the night before the day of your visit.
+
+All in all, it should be possible to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release and have reasonable internet connection. 
 
 #### Regular experience tickets
 <p align="center">
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="750"/> 
-</picture>
- 
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="750"/> 
-</picture>
- 
+  <picture>
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="750"/> 
+  </picture>
+
+  <picture>
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="750"/> 
+  </picture>
 </p>
-Figure 2: 
 
-Securing full experience tickets is a somewhat different story. The main challenge to getting these tickets is that they sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer availble for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum and are very active in trying to secure tickets and have a strong internet connect, there is a decent chance of securing a couple of the full experience with arena access tickets. To get the full experience with underground and arena access, you need all of the former plus lots of luck. 
+*Figure 2: * 
 
-The following two figures show the full experience ticket availability for the same two weeks as the figures above. The first plot shows the availability of tickets when the website was queried on the released date (30 days in advance). The left plot shows all types of full expereince tickets while the right plot only shows availability for full expreince tickets that include underground access. The empty times lost for the underground access is expected because of the time gaps in availble ticket entry times as we saw in figure 1 above. As with the regular experience tickets, a second batch of tickets are released 7 days in advance and the day before your visit (Figure 5). I have never seen availability of tickets from 29days - 8days or 6-2 days before the ticet date, so I would not even bother checking the official website for these tickets.
+Securing full experience tickets is a somewhat different story. The main challenge to getting these tickets is that they sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer availble for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum, are very active in trying to secure tickets, and have a strong internet connect, there is a chance of securing a couple of the full experience with arena access tickets. To get the full experience with underground and arena access, you need all of the former plus luck. 
 
-#### Full experience initial 30 day release
+Figure 3 below shows the full experience ticket availability for the same two weeks as the figures above. The first plot shows the availability of tickets when the website was queried on the released date (30 days in advance). The left plot shows all types of full expereince tickets while the right plot only shows availability for full expreince tickets that include underground access. The empty times lost for the underground access is expected because of the time gaps in availble ticket entry times as we saw in figure 1 above. As with the regular experience tickets, a second batch of tickets are released 7 days in advance and the day before your visit (Figure 5). These tickets tend to not sell out as fast as the ones released 30 days before your visit. I have never seen availability of tickets from 29days - 8days or 6-2 days before the ticet date, so I would not even bother checking the official website for these tickets.
+
 <p align="center">
-<picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="750"/> 
-</picture>
- 
- <picture>
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="750"/> 
-</picture>
- 
+  <picture>
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="750"/> 
+  </picture>
+
+  <picture>
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="750"/> 
+  </picture>
 </p>
-Figure 4:
+
+*Figure 3: *
 
 ## Conclusions
 
@@ -147,8 +144,8 @@ The code in this repo can be eaily adapted to implement this strategy algorithmi
 4) Repeat steps 2 and 3 every 5 minutes until you secure the tickets.
 
 ## Other details for planning your trip to the Colosseum
-1) You can visit the Palantine-Forum area before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time.
-2) In terms of planning your day, it will take between 4.5-6 hours to fully explore the three sites (Colosseum, Palatine Hill, and Roman Forum), spending between 1.5-2 hours at each site. It is a lot of walking and can be especially tough on your heels because most of the ground is cobble stone. On my visit to the Colosseum, I took 18,000 steps and climbed 20 flights of stairs according to my Iphones Health app. One nice feature of the Palatine HIll-Roman Forum area is that there are several water fountains to refill your bottles with cold water and shady benches to sit and relax.
+1) You can visit the Palatine Hill-Roman Forum area before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. However, this means that it is not essential to secure early morning tickets since you can plan to visit the Palatine Hill-Roman Forum area before your visit to the Colosseum. Of the three sites, the Colosseum requires the least amount of walking so it could actually make sense to save it for last. 
+2) In terms of planning your day, it will take between 4.5-6 hours to fully explore the three sites (Colosseum, Palatine Hill, and Roman Forum), spending between 1.5-2 hours at each site. It is a lot of walking and can be especially tough on your heels because most of the ground is cobble stone. On my visit to the Colosseum, I took 18,000 steps and climbed 20 flights of stairs according to my Iphones Health app. One nice feature of the Palatine Hill-Roman Forum area is that there are several water fountains to refill your bottles with cold water and shady benches to sit and relax.
 3) Note that the full experience undergrounds and arena tickets are nominative (i.e. contains the ticket holders name) and you must provide this information during the checkout process. This is especially important to note if you are buying the ticket for someone else or for many people. You will not be allowed into the undergrounds if your ID does not match the name on the ticket and you cannot change the name on the ticket once it has been sold to you. 
 4) You can still see the Undergrounds from above with a full experience arena ticket, but you will not get to walk through the undergrounds. So not getting underground access ticket is not the end of the world. In fact, I would not pay the extra money to buy a ticket with underground access from a third party reseller if I can get the full experience arena ticket from the official site.
 5) Despite the widespread claim online that the website is 'glitchy' or 'buggy', I have not found this to be the case. Tickets sell out very fast, so even if you see tickets available at one moment in time, they may be sold out by the time you hit 'add to cart' and bypass Recaptcha. This can be quite frustrating, but I would not call it a bug. Once you have the tickets in the cart, they are secure for 15 minutes while you check out and you should not have any problems from this point on. 
@@ -172,10 +169,10 @@ Each script has several control parameters to set query frequency, email frequen
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEA_tickets.png" alt="drawing" width="800"/> 
 </picture>
  
- <picture>
+<picture>
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEUA_ticket.png" alt="drawing" width="800"/> 
 </picture>
- 
 </p>
-Figure 4: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access
+
+*Figure 4: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
 
