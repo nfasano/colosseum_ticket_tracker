@@ -27,34 +27,32 @@ Tickets to enter the Colosseum are notoriusly difficult to obtain from the offic
 </picture>
 </p>
 
-*Figure 0: Images of the outside (photo credit: wikipedia) and interior (phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
+*Figure 0: Images of the outside (left - photo credit: wikipedia) and interior (right - phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
 
 ### Ticket types
-There are three main ticket types you can purchase: the ordinary ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website (see the Colosseum website for more details https://parcocolosseo.it/en/visit/opening-times-and-tickets/):
+There are three main ticket types you can purchase: the regular experience ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website (see the Colosseum website for more details [PARCO](https://parcocolosseo.it/en/visit/opening-times-and-tickets/)):
 
 """
 **ADMISSION TICKETS**
 
 **Regular experience ticket (€16 + €2 booking fee):**
-Valid 24 h, it allows one entrance to the Colosseum and one entrance to the Palatine Hill-Roman Forum area.
+Valid for 24hrs from the first use, it allows one entrance to the Colosseum and one entrance to the Palatine Hill-Roman Forum area.
 
 **Full Experience Arena ticket (€22 + €2 booking fee):**
-Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Hill-Roman Forum area and S.U.P.E.R sites.
+Valid for 48hrs from the first use, it allows one entrance to the Colosseum with access to the Arena, one entrance to the Palatine Hill-Roman Forum area, and entance to all the S.U.P.E.R sites within the Palatine Hill-Roman Forum area.
 
 **Full Experience Undergrounds and Arena ticket (€22 + €2 booking fee):**
-Valid for 2 days from the first use, it allows one entrance to the Colosseum with access to the Undergrounds and Arena, one entrance to the Palatine Hill-Roman Forum area and S.U.P.E.R sites. These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.
-
-NOTES: 
-1) The Palatine Hill-Roman Forum area is located right next to the Colosseum and contain the ruins from ancient Rome. The Palatine Hill section is where the emperors of ancient Rome built their palaces and contains some nice views of the Circus Maxiums and the Roman Forum section. The Roman Forum section is where all the political meetings and social gatherings of ancinet Rome would take place. The two sections are connected and the boundary between them is not perceptible (i.e. you can walk between the two sections without knowing it). 
-2) The S.U.P.E.R (Seven Unique Places to Experience in Rome) sites are special attractions inside the Palatine Hill-Roman Forum area which are only accessibile with a full expereince ticket. The S.U.P.E.R sites include House of Augustus, House of Livia (Augustus' wife), Palatine museum, Temple of Romulus, Neronian cryptoporticus, the Aula Isiaca, and the Santa Maria Antiqua. See the [PARCO](https://colosseo.it/en/) website for more details on these sites including dates of closure for maintenance.
-
+Valid for 48hrs from the first use, it allows one entrance to the Colosseum with access to the Undergrounds and Arena, one entrance to the Palatine Hill-Roman Forum area, and entance to all the S.U.P.E.R sites within the Palatine Hill-Roman Forum area. These tickets are nominative and you will not be allowed to enter the underground unless your ID matches the name on the ticket.
 """
 
-Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine Hill-Roman Forum area. You can visit the Palatine Hill and Roman Forum areas before or after your Colosseum visit but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. 
+NOTES: 
+1) The Palatine Hill-Roman Forum area is located right next to the Colosseum and contains the ruins from ancient Rome. The Palatine Hill section is where the emperors of ancient Rome built their palaces and contains some nice views of the Circus Maxiums and the Roman Forum section. The Roman Forum section is where all the political meetings and social gatherings of ancinet Rome took place. The two sections are connected and the boundary between them is not perceptible (i.e. you can walk between the two sections without knowing it). 
+2) The S.U.P.E.R (Seven Unique Places to Experience in Rome) sites are special attractions inside the Palatine Hill-Roman Forum area which are only accessibile with a full expereince ticket. The S.U.P.E.R sites include House of Augustus, House of Livia (Augustus' wife), Palatine museum, Temple of Romulus, Neronian cryptoporticus, the Aula Isiaca, and the Santa Maria Antiqua. See the [PARCO](https://colosseo.it/en/) website for more details on these sites including dates of closure for maintenance.
+3) Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine Hill-Roman Forum area. You can visit the Palatine Hill-Roman Forum areas before or after your Colosseum visit, but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. 
 
-Based on this information, it seems obvious that the full experience undergrounds and arena ticket is the best value, but as we will see below, the limited number of tickets and their high demand make these tickets the most difficult to obtain, especially during the summer months.
+Based on this information, the full experience undergrounds and arena ticket is the best value, but the limited number of tickets and their high demand make these tickets the most difficult to secure, especially during the summer months.
 
-A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in french, spanish, italian, and english. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. 
+A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in french, spanish, italian, and english. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the regular or full experience ticket. 
 
 ### Ticket tracking approach
 
