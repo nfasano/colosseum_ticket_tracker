@@ -11,7 +11,7 @@ Wrote an algorithm to track the ticket availability for entry into the Colosseum
    * [Ticket entry times](#ticket-entry-times)
    * [Ticket release times](#ticket-release-times) 
 4) [Conclusions](#conclusions)
-   * [My suggested strategy for securing your tickets](#my-suggessted-strategy-for-securing-your-tickets)   
+   * [My suggested strategy for securing your tickets](#my-suggested-strategy-for-securing-your-tickets)   
 5) [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
 
 ## Introduction
