@@ -2,17 +2,17 @@
 Wrote an algorithm to track the ticket availability for entry into the Colosseum from the official website ([Coopculture](https://ecm.coopculture.it/index.php?lang=en)), where tickets are notoriously difficult to secure. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be sent instantaneous email alerts with embedded links when tickets become available.
 
 ### Jump to section: 
-* [Introduction](#introduction)
-  * [General background and motivation](#general-background-and-motivation)  
-  * [Ticket types](#ticket-types)
-* [Methods](#methods)
-  * [Ticket availbility tracking using Python and Selenium](#ticket-availbility-tracking-using-python-and-selenium)      
-* [Summary of webscraped data](#summary-of-webscraped-data) 
-  * [Ticket entry times](#ticket-entry-times)
-  * [Ticket release times](#ticket-release-times) 
-* [Conclusions](#conclusions)
-  * [My suggested strategy for securing your tickets](#my-suggessted-strategy-for-securing-your-tickets)   
-* [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
+1) [Introduction](#introduction)
+   * [General background and motivation](#general-background-and-motivation)  
+   * [Ticket types](#ticket-types)
+2) [Methods](#methods)
+   * [Ticket availbility tracking using Python and Selenium](#ticket-availbility-tracking-using-python-and-selenium)      
+3) [Summary of webscraped data](#summary-of-webscraped-data) 
+   * [Ticket entry times](#ticket-entry-times)
+   * [Ticket release times](#ticket-release-times) 
+4) [Conclusions](#conclusions)
+   * [My suggested strategy for securing your tickets](#my-suggessted-strategy-for-securing-your-tickets)   
+5) [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
 
 ## Introduction
 
