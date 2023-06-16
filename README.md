@@ -61,9 +61,9 @@ Based on this information, the full experience undergrounds and arena ticket is 
 ## Methods
 
 ### Tracking ticket availability using Python and Selenium
-To gain insight into the 
+To gain insight into the optimal time to purchase your desired tickets, I used a computer program written in Python to track the release time of tickets and how long the tickets are available before they are sold out. It was useful to use two different scripts: one for tracking tickets at the initial release time where I would query the website every few seconds and one for tracking tickets across all available days where I would query the website once every minute. More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the Python scripts directly on this repository as they are commented.
 
-More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the Python scripts directly on this repository as they are commented.
+Each time the website was queried for a specific ticket type, the program first checks if there are any days with tickets available and then records the ticket information such as ticket type, entry date and time, and the number of tickets available at the time the website was queried. After collecting the data for all available tickets, the page is refreshed and the available ticket information is collected again.
 
 A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in French, Spanish, Italian, and English. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. Additionally, the Colosseum offers a limited number of tickets for visiting the Colosseum at night (8:30PM CET) only on certain days. These tickets are equivalent to the full experience English didactic tour tickets. In the analysis presented below, these tickets were tracked and the data was combined with the full experience tickets.
 
