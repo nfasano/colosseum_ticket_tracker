@@ -6,7 +6,7 @@ Wrote an algorithm to track the ticket availability for entry into the Colosseum
    * [General background and motivation](#general-background-and-motivation)  
    * [Ticket types](#ticket-types)
 2) [Methods](#methods)
-   * [Ticket availability tracking using Python and Selenium](#ticket-availbility-tracking-using-python-and-selenium)      
+   * [Tracking ticket availability using Python and Selenium](#tracking-ticket-availability-using-Python-and-Selenium)      
 3) [Summary of webscraped data](#summary-of-webscraped-data) 
    * [Ticket entry times](#ticket-entry-times)
    * [Ticket release times and availability](#ticket-release-times-and-availability) 
@@ -58,7 +58,7 @@ Based on this information, the full experience undergrounds and arena ticket is 
 
 ## Methods
 
-### Ticket availability tracking using Python and Selenium
+### Tracking ticket availability using Python and Selenium
 More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the python scripts directly on this repository as they are commented.
 
 A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in French, Spanish, Italian, and English. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. Additionally, the Colosseum offers a limited number of tickets for visiting the Colosseum at night (8:30PM CET) only on certain days. These tickets are equivalent to the full experience English didactic tour tickets. In the analysis presented below, these tickets were tracked and the data was combined with the full experience tickets.
