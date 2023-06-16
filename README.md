@@ -1,5 +1,7 @@
-### About this repository
-Wrote an algorithm to track the ticket availability for entry into the Colosseum from the official website ([Coopculture](https://ecm.coopculture.it/index.php?lang=en)), where tickets are notoriously difficult to secure. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. Based on the collected data, a detailed plan is proposed to ensure that you get the best available tickets. Other features of the code allow for the user to be sent instantaneous email alerts with embedded links when tickets become available.
+### About this project: Goals, techniques, and key findings
+The goal of this project was to devise a strategy that optimizes your chances of securing Colosseum tickets from the official website ([Coopculture](https://ecm.coopculture.it/index.php?lang=en)), avoiding the exorbitant fees incurred by using third-party resellers who use bots to purchase all tickets within seconds of being released. To this effect, I wrote a computer program (using Python and Selenium) to track the ticket availability for entry into the Colosseum from the official website. Ticket availability was queried for 14 consecutive days in intervals between 3 seconds and one minute, depending on the time of day. The main findings of this work show that tickets are released on a rolling basis exactly 30 days, 7 days, and 1 day before the timed ticket entry. We find that the initial release of tickets sells out the fastest and tickets released 7 days and 1 day before the entry time are available for longer. 
+
+Based on these findings, a detailed plan is proposed to ensure that you get your tickets, including a strategy for optimizing how you navigate the website when searching for tickets since every second counts. In the final section of this ReadMe.md file, we discuss the code in detail and its main features, including my approach to collecting, storing, organizing, manipulating, and visualizing the data as well as the feature of the code that allows the user to be sent instantaneous email alerts with embedded links when tickets become available.
 
 ### Jump to section: 
 1) [Introduction](#introduction)
@@ -17,7 +19,7 @@ Wrote an algorithm to track the ticket availability for entry into the Colosseum
 ## Introduction
 
 ### General background and motivation
-Tickets to enter the Colosseum are notoriously difficult to obtain from the official website ([coopculture](https://ecm.coopculture.it/index.php?option=com_snapp&view=products&snappTemplate=template3&catalogid=A4CC149C-BEE1-5773-5E59-01675F3EA81C&lang=en)) as only a limited supply of timed entry tickets are released 30 days in advance, and the majority of those tickets are scooped up by third party bots within seconds of being posted. These third-party resellers (e.g. Viator, Get Your Guide, Tiqets, etc.) then sell the tickets for a markup, sometimes for more than 10x the original ticket price. The goal of this project was to devise a strategy that optimizes your chances of securing Colosseum tickets from the official website, avoiding the exorbitant fees incurred by using third-party resellers. 
+Tickets to enter the Colosseum are notoriously difficult to obtain from the official website ([coopculture](https://ecm.coopculture.it/index.php?option=com_snapp&view=products&snappTemplate=template3&catalogid=A4CC149C-BEE1-5773-5E59-01675F3EA81C&lang=en)) as only a limited supply of timed entry tickets are released 30 days in advance, and the majority of those tickets are scooped up by third party bots within seconds of being posted. These third-party resellers (e.g. Viator, Get Your Guide, Tiqets, etc.) then sell the tickets for a markup, sometimes for more than 10x the original ticket price. 
 
 <p align="center">
 <picture>
@@ -48,8 +50,8 @@ Valid for 48hrs from the first use, it allows one entrance to the Colosseum with
 """
 
 NOTES: 
-1) The Palatine Hill-Roman Forum area is located right next to the Colosseum and contains the ruins from ancient Rome. The Palatine Hill section is where the emperors of ancient Rome built their palaces and contains some nice views of the Circus Maximus and the Roman Forum section. The Roman Forum section is where all the political meetings and social gatherings of ancient Rome took place. The two sections are connected and the boundary between them is not perceptible (i.e. you can walk between the two sections without knowing it). 
-2) The S.U.P.E.R (Seven Unique Places to Experience in Rome) sites are special attractions inside the Palatine Hill-Roman Forum area which are only accessibile with a full expereince ticket. The S.U.P.E.R sites include House of Augustus, House of Livia (Augustus' wife), Palatine museum, Temple of Romulus, Neronian cryptoporticus, the Aula Isiaca, and the Santa Maria Antiqua. See the [PARCO](https://colosseo.it/en/) website for more details on these sites including dates of closure for maintenance.
+1) The Palatine Hill-Roman Forum area is located right next to the Colosseum and contains the ruins of ancient Rome. The Palatine Hill section is where the emperors of ancient Rome built their palaces and contains some nice views of the Circus Maximus and the Roman Forum section. The Roman Forum section is where all the political meetings and social gatherings of ancient Rome took place. The two sections are connected and the boundary between them is not perceptible (i.e. you can walk between the two sections without knowing it). 
+2) The S.U.P.E.R (Seven Unique Places to Experience in Rome) sites are special attractions inside the Palatine Hill-Roman Forum area which are only accessible with a full experience ticket. The S.U.P.E.R sites include House of Augustus, House of Livia (Augustus' wife), Palatine museum, Temple of Romulus, Neronian Cryptoporticus, the Aula Isiaca, and the Santa Maria Antiqua. See the [PARCO](https://colosseo.it/en/) website for more details on these sites including dates of closure for maintenance.
 3) Each ticket gives you one timed entry to the Colosseum and one entry to the Palatine Hill-Roman Forum area. You can visit the Palatine Hill-Roman Forum areas before or after your Colosseum visit, but it must be within 24 hours (for regular experience ticket) or 48 hours (for full experience ticket) of your timed entrance to the Colosseum.  It is not possible to enter the Colosseum at a time that is different than your listed time. 
 
 Based on this information, the full experience undergrounds and arena ticket is the best value, but the limited number of tickets and their high demand make these tickets the most difficult to secure, especially during the summer months.
@@ -59,7 +61,9 @@ Based on this information, the full experience undergrounds and arena ticket is 
 ## Methods
 
 ### Tracking ticket availability using Python and Selenium
-More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the python scripts directly on this repository as they are commented.
+To gain insight into the 
+
+More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the Python scripts directly on this repository as they are commented.
 
 A quick note: On the coop culture website you will also find regular experience and full experience tickets with a guided tour included. These tours are typically offered 1-2 times a day and are given in French, Spanish, Italian, and English. For the purposes of this project, I only tracked the ticket availability for the English didactic tour and combined its availability with that of the ordinary or full experience ticket. Additionally, the Colosseum offers a limited number of tickets for visiting the Colosseum at night (8:30PM CET) only on certain days. These tickets are equivalent to the full experience English didactic tour tickets. In the analysis presented below, these tickets were tracked and the data was combined with the full experience tickets.
 
