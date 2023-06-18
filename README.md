@@ -60,8 +60,8 @@ Based on this information, the full experience undergrounds and arena ticket is 
 
 ## Methods
 
-### Tracking ticket availability using Python and Selenium
-To gain insight into the optimal time to purchase your desired tickets, I used a computer program written in Python to track the release time of tickets and how long the tickets are available before they are sold out. It was useful to use two different scripts: one for tracking tickets at the initial release time where I would query the website every few seconds and one for tracking tickets across all available days where I would query the website once every minute. More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the Python scripts directly on this repository as they are commented.
+### Tracking ticket availability using Python
+To gain insight into the optimal time to purchase your desired tickets, I used a computer program written in Python to track the release time of tickets and how long the tickets are available before they are sold out. I found it useful to use two different programs: one for tracking tickets at the initial release time where I would query the website every few seconds and one for tracking tickets across all available days where I would query the website once every minute. More details about the specifics of the Python scripts used for tracking the ticket availability are presented in the final section of this ReadMe. You could also read the Python scripts directly on this repository as they are commented.
 
 Each time the website was queried for a specific ticket type, the program first checks if there are any days with tickets available and then records the ticket information such as ticket type, entry date and time, and the number of tickets available at the time the website was queried. After collecting the data for all available tickets, the page is refreshed and the available ticket information is collected again.
 
