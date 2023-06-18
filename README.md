@@ -171,7 +171,7 @@ There are two Python scripts in this repository for tracking ticket information,
   </picture>
 </p>
 
-*Figure 3: Snippet of the Panda's dataframe used for storing ticket availability. NAN means that there were no tickets available for that time slot.*
+*Figure 3: Snippet of the Panda's dataframe used for storing ticket availability. NaN means that there were no tickets available for that time slot.*
 
 Each script has several control parameters to set query frequency, email frequency, ticket type to track, which dates to track, and how frequently to save dataframe (saved as .pkl files).
 
@@ -181,7 +181,7 @@ Each script has several control parameters to set query frequency, email frequen
 
 **3) eda_single_day_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_single_day.ipynb script. 
 
-**4) eda_all_days_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_all_days.ipynb script. Also provides some functions for manipulating the pandas dataframes with a hierarchical column structure.
+**4) eda_all_days_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_all_days.ipynb script. Also provides some functions for manipulating the panda.s dataframes with a hierarchical column structure.
 
 <p align="center">
 <picture>
