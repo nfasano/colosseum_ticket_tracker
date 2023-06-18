@@ -165,6 +165,13 @@ The code in this repo (described in more detail below) can easily be adapted to 
 ## Python code for tracking ticket availability 
 There are two Python scripts in this repository for tracking ticket information, where both scripts use Selenium to automate web browsing and extract ticket availability. Each time the website is queried, the collected ticket availability information is stored in a Pandas dataframe which is depicted below. Each row of the dataframe reports the number of tickets available for a given timeslot and are indexed by 'queryDate_queryTime_ticketType'. The columns have two levels (hierarchical indexing) where the outer level is for the ticket date and the inner level is for the entry time of that date. The outer level is dropped when tracking ticket availability on a single date. Given that most queries will return no ticket availablility, this dataframe is quite sparse (greater than 99% of entries are NaN) and so we use the Pandas built-in sparsity datatype (dtype = Sparse[float64, nan]). See [sparse_date_structures](https://pandas.pydata.org/docs/user_guide/sparse.html) for more information on sparse data types in Pandas.
 
+<p align="center">
+  <picture>
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/dataframe.png" alt="drawing" width="750"/> 
+  </picture>
+</p>
+
+
 Each script has several control parameters to set query frequency, email frequency, ticket type to track, which dates to track, and how frequently to save dataframe (saved as .pkl files).
 
 **1) ticket_tracker_single_day.ipynb:** This script is optimized for tracking ticket availability on the release date, which is useful if you are trying to obtain specific ticket type on a specific date and time. It contains functionality to send email alerts containing ticket information, including ticket type, entry date and time, number of tickets available, and link to the ticket. 
@@ -188,10 +195,3 @@ Each script has several control parameters to set query frequency, email frequen
 *Figure 4: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
 
 
-day	|04/21/2023	|...|	06/04/2023
-entryTime|	08:00	|08:05	|	...|		22:45	|22:50	|22:55	|Color|
-05/05/2023_23:15:05_FEUA_|	NaN|	NaN	|...	|	NaN	|NaN|	NaN|	white|
-05/05/2023_23:15:34_FEA_	|NaN	|NaN	|		...	|NaN	|NaN	|NaN|	white|
-05/05/2023_23:15:53_FEUAG_	|NaN|	NaN|	...	|NaN|	NaN|	NaN|	white|
-05/05/2023_23:16:09_RE_	|NaN	|NaN		|	...|	NaN|	NaN|	NaN	|grey|
-05/05/2023_23:16:38_REG_|	NaN|	NaN	|	...	|NaN	|NaN|	NaN	|white|
