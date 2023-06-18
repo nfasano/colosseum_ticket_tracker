@@ -163,7 +163,7 @@ The code in this repo (described in more detail below) can easily be adapted to 
 6) The website slows down considerably near ticket release times when page requests are highest (we are not the only ones who are trying to buy tickets). 
 
 ## Python code for tracking ticket availability 
-There are two Python scripts in this repository for tracking ticket information, where both scripts use Selenium to automate web browsing and extract ticket availability. Each time the website is queried, the collected ticket availability information is stored in a Pandas dataframe which is depicted below. Each row of the dataframe reports the number of tickets available for a given timeslot and are indexed by 'queryDate_queryTime_ticketType'. The columns have two levels (hierarchical indexing) where the outer level is for the ticket date and the inner level is for the entry time of that date. The outer level is dropped when tracking ticket availability on a single date. Given that most queries will return no ticket availablility, this dataframe is quite sparse (greater than 99% of entries are NaN) and so we use the Pandas built-in sparsity datatype (dtype = Sparse[float64, nan]). See [sparse_date_structures](https://pandas.pydata.org/docs/user_guide/sparse.html) for more information on sparse data types in Pandas.
+There are two Python scripts in this repository for tracking ticket information, where both scripts use Selenium to automate web browsing and extract ticket availability. Each time the website is queried, the collected ticket availability information is stored in a Pandas dataframe which is depicted below. Each row of the dataframe reports the number of tickets available for a given timeslot and is indexed by a string of the form 'queryDate_queryTime_ticketType'. The columns have two levels (hierarchical indexing) where the outer level is for the ticket date and the inner level is for the entry time of that date. The outer level is dropped when tracking ticket availability on a single date. Given that most queries will return no ticket availability, this dataframe is quite sparse (greater than 99% of entries are NaN) and so we use the Pandas built-in sparsity datatype (dtype = Sparse[float64, nan]). See [sparse_date_structures](https://pandas.pydata.org/docs/user_guide/sparse.html) for more information on sparse data types in Pandas.
 
 <p align="center">
   <picture>
@@ -171,6 +171,7 @@ There are two Python scripts in this repository for tracking ticket information,
   </picture>
 </p>
 
+*Figure 3: Snippet of the Panda's dataframe used for storing ticket availability. NAN means that there were no tickets available for that time slot.*
 
 Each script has several control parameters to set query frequency, email frequency, ticket type to track, which dates to track, and how frequently to save dataframe (saved as .pkl files).
 
