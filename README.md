@@ -13,7 +13,8 @@ Based on these findings, a detailed plan is proposed to ensure that you get your
    * [Ticket entry times](#ticket-entry-times)
    * [Ticket release times and availability](#ticket-release-times-and-availability) 
 4) [Conclusions](#conclusions)
-   * [My suggested strategy for securing your tickets](#my-suggested-strategy-for-securing-your-tickets)   
+   * [My suggested strategy for securing your tickets](#my-suggested-strategy-for-securing-your-tickets)
+   * [A time-saving hack for scoring your tickets](#a-time-saving-hack-for-scoring-your-tickets)
 5) [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
 
 ## Introduction
@@ -84,7 +85,7 @@ In Figure 1, I show selected entry times for Regular experience tickets (left pa
 For both the regular experience and full experience options, tickets are released on a rolling basis precisely 30 days from the timed entry. For example, tickets for a 9:00am CET timed entry on July 31st will be released at precisely 9:00am CET on July 1st. Similarly, tickets for a 1:30pm CET timed entry on July 31st will be released at precisely 1:30pm CET on July 1st.
 
 #### Regular experience tickets
-Figure 2 illustrates the regular experience ticket availability when the website was queried 30 days before the entry date, 7 days before the entry date, 1 day before the entry date, and the day of the entry date. These illustrations (heatmaps) should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. For example, the 17 in the upper left cell of Figure 2a means that there was a maximum of 17 tickets available at any given moment between April 22nd, 2023 - May 5th, 2023 for entry times between 9:15am and 9:45am when I queried the website between 9:15am and 9:45am. A blank cell means no tickets were ever detected during that query timed interval.
+Figure 2 illustrates the regular experience ticket availability when the website was queried 30 days before the entry date, 7 days before the entry date, 1 day before the entry date, and the day of the entry date. These illustrations (heatmaps) should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 21st, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. For example, the 17 in the upper left cell of Figure 2a means that there was a maximum of 17 tickets available at any given moment between April 22nd, 2023 - May 5th, 2023 for entry times between 9:15am and 9:45am when I queried the website between 9:15am and 9:45am. A blank cell means no tickets were ever detected during that query timed interval.
 
 As seen in the upper left heatmap, which illustrates the number of tickets available 30 days before your visit, tickets are released on a rolling basis exactly 30 days before the ticket entry time which is why the upper right portion of this heatmap is blank. Early morning entry times sell out the fastest, usually within a few seconds of being posted. Sometimes residual tickets are found at later times, which I think happens because people cancel their cart or something goes wrong with the transaction. For entry times later than 17:00CET, tickets do not sell out as quickly and are probably your best chance of getting tickets for a larger group, say a family of 6. As I discuss below in the additional notes section, I don't see any issue with purchasing these later entry time tickets, so long as you plan your day appropriately. The last timed entry is one hour before closing, which should be enough time to explore most of what the Colosseum has to offer.
 
@@ -102,7 +103,7 @@ All in all, it should be possible to secure this type of ticket near your desire
   </picture>
 </p>
 
-*Figure 2: Heatmaps illustrating the regular experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 7 days before the entry date, (c) 1 day before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
+*Figure 2: Heatmaps illustrating the regular experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 7 days before the entry date, (c) 1 day before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 21st, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
 
 #### Full experience tickets
 Securing full experience tickets is a somewhat different story. The main challenge to getting these tickets is that they sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer available for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum, are very active in trying to secure tickets, and have a strong internet connection, there is a chance of securing a couple of the full experience with arena access tickets. To get the full experience with underground and arena access, you need all of the former plus luck. During my visit to the Colosseum, I asked one of the Colosseum's underground accompanying guides about the number of underground tickets and she said that only 15-20 tickets are released per time slot. It might also be true that 'official partners' (e.g. Get Your Guide, Viator) get priority access to the tickets that they want, but I cannot prove this.  
@@ -142,13 +143,13 @@ Finally, there is still a chance to get tickets on the day of your visit, but ex
 
 Will this approach work? It did for me!
 
-### A hack for scoring full experience tickets
-Given that both regular experience and full experience tickets sell out within a few seconds, every second counts when trying to secure your tickets. By far the step that slows us down the most is refreshing the page near the availability time and then advancing the month forward. If you are lucky enough to see the calendar day turn green and become clickable, you will likely be too late to purchase the tickets. The mistake I think most people will make is to then refresh the whole page again, which will cause the calendar day to become red again and not clickable. However, it is much faster to just repeatedly click the calendar day, which will remain clickable and will update with new tickets when they become available.
+### A time-saving hack for scoring your tickets
+Given that both regular experience and full experience tickets sell out within a few seconds, every second counts when trying to secure your tickets. The mistake I think most people will make is to refresh the whole page when they are waiting for tickets to be refreshed. This will force the browser to render all the graphics on the webpage and then you will have to use the calendar to navigate to the correct month. The more efficient approach is to use the calendar arrows to repeatedly switch between the current month and the month that you want to get your tickets. If you are lucky enough to see the day turn green, and hence become clickable, you can then repeatedly click the calendar day as it will remain clickable even if there are no available tickets at that time. 
 
 Here is a video of me implementing this strategy by hand: 
 
 The code in this repo (described in more detail below) can easily be adapted to implement this strategy algorithmically. One could even launch several instances simultaneously (in parallel) to maximize the chances of getting the calendar day to turn green. In words, the algorithm will be something like this:
-1) Launch several instances of the website and repeatedly refresh the webpage until you detect the calendar day of interest turn green. Click the calendar day and try to add any available tickets to your cart, but obtaining them may be difficult as you may have not refreshed at exactly the right moment. However, the goal with this first step is to not necessarily get tickets at the first time slot, but rather just to see the calendar date turn green and hence become clickable for all remaining time slots.
+1) Launch several instances of the website and repeatedly navigate between two neighboring months, one of them should be the month of the day you want to buy tickets for. Each time you navigate, check to see if the calendar day has turned green, indicating that tickets were released. Click the calendar day and try to add any available tickets to your cart, but obtaining them may be difficult as you may have not refreshed at exactly the right moment. However, the goal with this first step is not to necessarily get tickets at the first time slot but rather to see the calendar date turn green and hence become clickable for all remaining time slots.
 2) When tickets are about to be released at the next time slot, repeatedly click the calendar day until the ticket availability box displays some tickets. 
 3) Working quickly, add the desired amount of tickets to your cart and bypass recapture.
 4) Repeat steps 2 and 3 every 5 minutes until you secure the tickets.
@@ -186,3 +187,11 @@ Each script has several control parameters to set query frequency, email frequen
 
 *Figure 4: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
 
+
+day	|04/21/2023	|...|	06/04/2023
+entryTime|	08:00	|08:05	|	...|		22:45	|22:50	|22:55	|Color|
+05/05/2023_23:15:05_FEUA_|	NaN|	NaN	|...	|	NaN	|NaN|	NaN|	white|
+05/05/2023_23:15:34_FEA_	|NaN	|NaN	|		...	|NaN	|NaN	|NaN|	white|
+05/05/2023_23:15:53_FEUAG_	|NaN|	NaN|	...	|NaN|	NaN|	NaN|	white|
+05/05/2023_23:16:09_RE_	|NaN	|NaN		|	...|	NaN|	NaN|	NaN	|grey|
+05/05/2023_23:16:38_REG_|	NaN|	NaN	|	...	|NaN	|NaN|	NaN	|white|
