@@ -24,7 +24,7 @@ Tickets to enter the Colosseum are notoriously difficult to obtain from the offi
 
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="49.5%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="49.5%"/> 
 
-*Figure 0: Images of the outside (left - photo credit: wikipedia) and interior (right - phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
+*Figure 1: Images of the outside (left - photo credit: wikipedia) and interior (right - phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
 
 ### Ticket types
 There are three main ticket types you can purchase: the regular experience ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website (see the Colosseum website for more details [PARCO](https://parcocolosseo.it/en/visit/opening-times-and-tickets/)):
@@ -67,7 +67,7 @@ In Figure 1, I show selected entry times for Regular experience tickets (left pa
 
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/TicketTimeSlots.png" alt="drawing" width="99.5%"/> 
 
-*Figure 1: Available ticket times for the three main ticket types: regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.*
+*Figure 2: Available ticket times for the three main ticket types: regular experience (left panel), full experience arena (central panel), and full experience undergrounds and arena (right panel). The regular experience and full experience arena plots only show a subset of available times for that day, while the full experience undergrounds and arena ticket shows all available times for that day.*
 
 ### Ticket release times and availability
 For both the regular experience and full experience options, tickets are released on a rolling basis precisely 30 days from the timed entry. For example, tickets for a 9:00am CET timed entry on July 31st will be released at precisely 9:00am CET on July 1st. Similarly, tickets for a 1:30pm CET timed entry on July 31st will be released at precisely 1:30pm CET on July 1st.
@@ -85,7 +85,7 @@ All in all, it should be possible to secure this type of ticket near your desire
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="95%"/> 
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="95%"/> 
 
-*Figure 2: Heatmaps illustrating the regular experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 7 days before the entry date, (c) 1 day before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 21st, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
+*Figure 3: Heatmaps illustrating the regular experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 7 days before the entry date, (c) 1 day before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 21st, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
 
 #### Full experience tickets
 Securing full experience tickets is a somewhat different story. The main challenge to getting these tickets is that they sell fast. Really fast. So fast that, even if you refresh the webpage on the exact moment that tickets are released, by the time it takes you to add the ticket to the cart (select ticket time, select amount of tickets, and bypass reCAPTCHA) the tickets will be sold out and you will be displayed with a disheartening error message saying "tickets are no longer available for your selected time." Even still, if you are a bit flexible on the day or time of your visit to the Colosseum, are very active in trying to secure tickets, and have a strong internet connection, there is a chance of securing a couple of the full experience with arena access tickets. To get the full experience with underground and arena access, you need all of the former plus luck. During my visit to the Colosseum, I asked one of the Colosseum's underground accompanying guides about the number of underground tickets and she said that only 15-20 tickets are released per time slot. It might also be true that 'official partners' (e.g. Get Your Guide, Viator) get priority access to the tickets that they want, but I cannot prove this.  
@@ -144,7 +144,7 @@ There are two Python scripts in this repository for tracking ticket information,
 
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/dataframe.png" alt="drawing" width="99.5%"/> 
 
-*Figure 3: Snippet of the Panda's dataframe used for storing ticket availability. NaN means that there were no tickets available for that time slot.*
+*Figure 4: Snippet of the Panda's dataframe used for storing ticket availability. NaN means that there were no tickets available for that time slot.*
 
 Each script has several control parameters to set query frequency, email frequency, ticket type to track, which dates to track, and how frequently to save dataframe (saved as .pkl files).
 
@@ -160,6 +160,6 @@ Each script has several control parameters to set query frequency, email frequen
 <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEUA_ticket.png" alt="drawing" width="99.5%"/> 
 
 
-*Figure 4: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
+*Figure 5: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
 
 
