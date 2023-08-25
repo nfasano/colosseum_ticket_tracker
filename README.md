@@ -22,7 +22,7 @@ Based on these findings, a detailed plan is proposed to ensure that you get your
 ### General background and motivation
 Tickets to enter the Colosseum are notoriously difficult to obtain from the official website ([coopculture](https://ecm.coopculture.it/index.php?option=com_snapp&view=products&snappTemplate=template3&catalogid=A4CC149C-BEE1-5773-5E59-01675F3EA81C&lang=en)) as only a limited supply of timed entry tickets are released 30 days in advance, and the majority of those tickets are scooped up by third party bots within seconds of being posted. These third-party resellers (e.g. Viator, Get Your Guide, Tiqets, etc.) then sell the tickets for a markup, sometimes for more than 10x the original ticket price. 
 
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="49.5%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="49.5%"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="48%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="48%"/> 
 
 *Figure 1: Images of the outside (left - photo credit: wikipedia) and interior (right - phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
 
@@ -82,8 +82,7 @@ Interestingly, there is a second batch of tickets that is released on a rolling 
 All in all, it should be possible to secure this type of ticket near your desired time so long as you are actively checking the website at the time of release and have a reasonable internet connection. To optimize your chances of getting your ticket, follow the strategy provided in the conclusions section of this post.
 
 
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="95%"/> 
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="95%"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance_30Days_7Days.png" alt="drawing" width="95%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined_RegularEntrance.png" alt="drawing" width="95%"/> 
 
 *Figure 3: Heatmaps illustrating the regular experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 7 days before the entry date, (c) 1 day before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 21st, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
 
@@ -94,9 +93,7 @@ Figure 2 illustrates the full experience ticket availability when the website wa
 
 As with the regular experience tickets, a second batch of tickets is released 7 days in advance and the day before your visit. These tickets tend to not sell out as fast as the ones released 30 days before your visit. I have never seen the availability of tickets from 29 days - 8 days or 6-2 days before the ticket date, so I would not even bother checking the official website for these tickets.
 
-  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="95%"/> 
-  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="95%"/> 
-
+  <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="95%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="95%"/> 
 
 *Figure 2: Heatmaps illustrating the full experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 30 days before the entry date but only including tickets with underground access, (c) 7 days before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
 
@@ -156,8 +153,7 @@ Each script has several control parameters to set query frequency, email frequen
 
 **4) eda_all_days_plotsV0.ipynb:** Notebook used to create heatmaps presented in this repository based on data collected using ticket_tracker_all_days.ipynb script. Also provides some functions for manipulating the panda.s dataframes with a hierarchical column structure.
 
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEA_tickets.png" alt="drawing" width="99.5%"/> 
-<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEUA_ticket.png" alt="drawing" width="99.5%"/> 
+<img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEA_tickets.png" alt="drawing" width="99%"/> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEUA_ticket.png" alt="drawing" width="99%"/> 
 
 
 *Figure 5: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
