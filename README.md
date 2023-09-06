@@ -98,7 +98,7 @@ As with the regular experience tickets, a second batch of tickets is released 7 
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/single_day_combined.png" alt="drawing" width="95%"/> </picture> 
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/AllDaysCombined.png" alt="drawing" width="95%"/> </picture> 
 
-*Figure 2: Heatmaps illustrating the full experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 30 days before the entry date but only including tickets with underground access, (c) 7 days before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
+*Figure 4: Heatmaps illustrating the full experience ticket availability when the website was queried (a) 30 days before the entry date, (b) 30 days before the entry date but only including tickets with underground access, (c) 7 days before the entry date, and (d) the day of the entry date. These heatmaps should be interpreted as follows: each cell block contains the maximum number of tickets available during the two weeks (April 22nd, 2023 - May 5th, 2023) that the search was performed for an entry time within the time given by the width of the block and when the website was queried during the time interval given by the height of the block. All times are shown in CET (local Rome time).* 
 
 ## Conclusions
 
@@ -144,7 +144,7 @@ There are two Python scripts in this repository for tracking ticket information,
 
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/dataframe.png" alt="drawing" width="99.5%"/> </picture> 
 
-*Figure 4: Snippet of the Panda's dataframe used for storing ticket availability. NaN means that there were no tickets available for that time slot.*
+*Figure 5: Snippet of the Panda's dataframe used for storing ticket availability. NaN means that there were no tickets available for that time slot.*
 
 Each script has several control parameters to set query frequency, email frequency, ticket type to track, which dates to track, and how frequently to save dataframe (saved as .pkl files).
 
@@ -159,7 +159,6 @@ Each script has several control parameters to set query frequency, email frequen
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEA_tickets.png" alt="drawing" width="99%"/> </picture> 
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Email_FEUA_ticket.png" alt="drawing" width="99%"/> </picture> 
 
-
-*Figure 5: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
+*Figure 6: Examples of emails when tickets became available. FEUA = full experience undergrounds and arena access, FEA = full experience arena access*
 
 
