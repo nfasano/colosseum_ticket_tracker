@@ -16,7 +16,7 @@ Based on these findings, a detailed plan is proposed to ensure that you get your
    * [Ticket release times and availability](#ticket-release-times-and-availability) 
 4) [Conclusions](#conclusions)
    * [My suggested strategy for securing your tickets](#my-suggested-strategy-for-securing-your-tickets)
-   * [A time-saving hack for scoring your tickets](#a-time-saving-hack-for-scoring-your-tickets)
+   * [A time-saving hack for beating the bots](#a-time-saving-hack-for-beating-the-bots)
 5) [Details on the Python code for tracking ticket availability](#python-code-for-tracking-ticket-availability) 
 
 ## Introduction
@@ -121,7 +121,7 @@ Finally, there is still a chance to get tickets on the day of your visit, but ex
 
 Will this approach work? It did for me!
 
-### A time-saving hack for scoring your tickets
+### A time-saving hack for beating the bots
 Given that both regular experience and full experience tickets sell out within a few seconds, every second counts when trying to secure your tickets. The mistake I think most people will make is to refresh the whole page when they are waiting for tickets to be refreshed. This will force the browser to render all the graphics on the webpage and then you will have to use the calendar to navigate to the correct month. The more efficient approach is to use the calendar arrows to repeatedly switch between the current month and the month that you want to get your tickets. If you are lucky enough to see the day turn green, and hence become clickable, you can then repeatedly click the calendar day as it will remain clickable even if there are no available tickets at that time. 
 
 Here is a video of me implementing this strategy by hand: 
