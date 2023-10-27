@@ -27,7 +27,7 @@ Tickets to enter the Colosseum are notoriously difficult to obtain from the offi
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_wikipedia_image.jpg" alt="drawing" width="48%"/> </picture> 
 <picture> <img src="https://github.com/nfasano/colosseumTickets/blob/main/figures/Colosseum_in_Rome_inside_view_flickr.jpg" alt="drawing" width="48%"/> </picture> 
 
-*Figure 1: Images of the outside (left - photo credit: wikipedia) and interior (right - phot credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
+*Figure 1: Images of the outside (left - photo credit: wikipedia) and interior (right - photo credit: flikr) of the Colosseum in Rome. In the photo on the right, you can see the underground ruins which was located beneath the arena floor and is where the gladiators, animals, and special effect workers would plan for the show. Also shown in this photo is the reconstructed arena floor (tan floor in the right-center of the photo) where the battles took place.*
 
 ### Ticket types
 There are three main ticket types you can purchase: the regular experience ticket (€18), the full experience arena ticket (€24), and the full experience undergrounds and arena ticket (€24). The following description of each ticket type was adapted from the coopculture website (see the Colosseum website for more details [PARCO](https://parcocolosseo.it/en/visit/opening-times-and-tickets/)):
